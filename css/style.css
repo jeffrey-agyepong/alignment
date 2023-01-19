@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 100%;
+    background: #ecf3f9;
+}
+
+header,
+section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 24px 0;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+/* *********** form ************ */
+form {
+    margin: 48px;
+}
+
+.form {
+    display: grid;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+legend {
+    font-size: 24px;
+}
+
+input {
+    padding: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    margin: 20px auto;
+}
+
+/* ************** footer *************** */
+footer li {
+    display: inline;
+}
