@@ -3,7 +3,7 @@ body {
     font-size: 100%;
     background: #ecf3f9;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(/img/bg-01.webp);
+    background-image: url(../img/bg-01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,7 +47,7 @@ form {
     text-align: left;
     width: 422px;
     margin: 0 auto;
-    border: 1px solid #5f5f6f;
+    border: 3px solid #5f5f6f;
     border-radius: 30px;
     background: #808eb9;
     padding: 20px;
