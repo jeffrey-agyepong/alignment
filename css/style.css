@@ -5,12 +5,11 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(/img/bg-01.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 header,
 section {
-    width: 960px;
     margin: 0 auto;
 }
 
@@ -112,4 +111,23 @@ button {
 /* ************** footer *************** */
 footer li {
     display: inline;
+}
+
+
+/** Mobile device **/
+@media screen and (max-width: 50rem) {
+
+
+    body {
+        text-align: center;
+        margin: 0 auto
+    }
+}
+
+@media screen and (min-width: 70rem) {
+
+    header,
+    section {
+        width: 960px;
+    }
 }
