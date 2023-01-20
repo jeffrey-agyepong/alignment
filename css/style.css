@@ -1,8 +1,11 @@
 body {
-    text-align: center;
     line-height: 1.5;
     font-size: 100%;
     background: #ecf3f9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/img/bg-01.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 header,
@@ -28,35 +31,82 @@ h2 {
     text-align: center;
 }
 
+.pad5 {
+    padding-top: 5px;
+}
+
+.pad15 {
+    padding-top: 15px;
+}
+
 /* *********** form ************ */
 form {
     margin: 48px;
 }
 
 .form {
-    display: grid;
-    width: 400px;
+    text-align: left;
+    width: 422px;
     margin: 0 auto;
+    border: 1px solid #5f5f6f;
+    border-radius: 30px;
+    background: #808eb9;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #001d24;
 }
+
 
 
 
 legend {
     font-size: 24px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.pw {
+    text-align: left;
+    padding: 10px 0;
 }
 
 input {
     padding: 5px;
     width: 400px;
     margin: 0 auto;
+    border-radius: 8px;
+    height: 28px;
 }
 
 button {
+    display: block;
     padding: 15px;
     border-radius: 5px;
     cursor: pointer;
-    width: 300px;
+    width: 188px;
     margin: 20px auto;
+}
+
+.checkbox {
+    width: 15px;
+    height: 30px;
+    margin: 23px;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+.account {
+    padding: 10px 0;
+}
+
+.white {
+    color: #fff;
 }
 
 /* ************** footer *************** */
