@@ -50,7 +50,7 @@ form {
     border: 1px solid #5f5f6f;
     border-radius: 30px;
     background: #808eb9;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 5px 5px 5px #001d24;
 }
 
@@ -92,6 +92,14 @@ button {
     margin: 20px auto;
 }
 
+a:hover {
+    color: #000b0e
+}
+
+button:hover {
+    background-color: #2b879e;
+}
+
 .checkbox {
     width: 15px;
     height: 30px;
@@ -120,7 +128,37 @@ footer li {
 
     body {
         text-align: center;
-        margin: 0 auto
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 24px 0;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    form {
+        margin: 0px;
+    }
+
+    .form {
+        width: 240px;
+    }
+
+    input {
+        width: 200px;
+    }
+
+    label {
+        font-size: 15px;
+    }
+
+    .pad20 {
+        padding: 20px;
     }
 }
 
