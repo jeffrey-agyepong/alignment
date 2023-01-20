@@ -96,6 +96,11 @@ a:hover {
     color: #000b0e
 }
 
+button {
+
+    background-color: #e72929;
+}
+
 button:hover {
     background-color: #2b879e;
 }
@@ -167,5 +172,10 @@ footer li {
     header,
     section {
         width: 960px;
+    }
+
+
+    button {
+        font-size: 25px;
     }
 }
