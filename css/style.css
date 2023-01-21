@@ -14,12 +14,16 @@ section {
 }
 
 h1 {
-    font-size: 48px;
-    margin: 24px 0;
+    font-size: 40px;
+    margin: 14px 0;
 }
 
 h2 {
     font-size: 32px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .left {
@@ -38,9 +42,13 @@ h2 {
     padding-top: 15px;
 }
 
+section p {
+    padding-top: 20px;
+}
+
 /* *********** form ************ */
 form {
-    margin: 48px;
+    margin: 20px;
 }
 
 .form {
@@ -50,7 +58,7 @@ form {
     border: 3px solid #5f5f6f;
     border-radius: 30px;
     background: #808eb9;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 5px 5px 5px #001d24;
 }
 
@@ -126,7 +134,7 @@ button:hover {
 }
 
 .account {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .white {
