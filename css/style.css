@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 body {
     line-height: 1.5;
     font-size: 100%;
-    background: #ecf3f9;
+    background-image: url(../img/bg.webp);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(../img/bg-01.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,6 +19,7 @@ h1 {
     margin: 14px 0;
     font-weight: bold;
     font-variant: small-caps;
+    color: #fff;
 }
 
 h2 {
@@ -44,55 +46,58 @@ p {
     padding-top: 15px;
 }
 
+.pad20 {
+    padding-top: 20px;
+}
+
 section p {
     padding-top: 20px;
 }
 
 /* *********** form ************ */
 form {
-    margin: 20px;
+    margin-top: 100px;
 }
 
 .form {
     text-align: left;
-    width: 410px;
+    width: 360px;
     margin: 0 auto;
-    border: 3px solid #5f5f6f;
-    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 18px;
     background: #808eb9;
-    padding: 15px;
+    padding: 20px;
     box-shadow: 5px 5px 5px #001d24;
 }
 
-
-
-
 legend {
-    font-size: 24px;
+    font-size: 34px;
     padding: 15px 0;
     text-align: center;
     font-weight: bold;
     font-variant: small-caps;
+    color: #fff;
 }
 
 label {
-    padding: 10px 0;
+    padding: 10px 10px;
     font-size: 20px;
 }
 
 .pw {
     text-align: left;
-    padding: 10px 0;
+    padding: 10px 10px;
 }
 
 input {
-    padding: 5px;
-    width: 400px;
+    padding: 10px;
+    width: 90%;
     margin: 0 auto;
-    border-radius: 8px;
+    border-radius: 15px;
     border: 0px;
-    height: 28px;
-
+    height: 25px;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 .shadow {
@@ -101,30 +106,33 @@ input {
 
 a {
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.account a:hover,
+a:hover {
+    color: #ffffff;
 }
 
 button {
     display: block;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 0px;
     cursor: pointer;
-    width: 188px;
+    width: 90%;
+    height: 60px;
     margin: 20px auto;
-    box-shadow: 5px 5px 5px #001d24;
-}
-
-a:hover {
-    color: #901a1a
-}
-
-button {
+    filter: drop-shadow(0 0 30px rgb(0, 0, 0));
     color: #fff;
     background-color: #e72929;
+    font-family: 'Oswald', sans-serif;
 }
 
+
 button:hover {
-    background-color: #2b879e;
+    color: #e72929;
+    background-color: #fff;
 }
 
 .checkbox {
@@ -137,14 +145,34 @@ button:hover {
 }
 
 .account {
-    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.account a,
+.pw {
+    color: #901a1a;
+}
+
+.account a:hover {
+    color: #ffffff;
 }
 
 .white {
     color: #fff;
 }
 
-.checkbox {}
+.sign-in {
+    margin-left: 18px;
+}
+
+.keep {
+    padding: 20px 0 20px 0;
+
+}
+
+.mg {
+    margin: 10px;
+}
 
 /* ************** footer *************** */
 footer li {
@@ -176,11 +204,11 @@ footer li {
     }
 
     .form {
-        width: 240px;
+        width: 100%;
     }
 
     input {
-        width: 200px;
+        width: 80%;
     }
 
     label {
@@ -191,13 +219,6 @@ footer li {
         padding: 20px;
     }
 
-    .form {
-        width: 280px;
-    }
-
-    input {
-        width: 260px;
-    }
 }
 
 @media screen and (min-width: 70rem) {
@@ -209,6 +230,6 @@ footer li {
 
 
     button {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
