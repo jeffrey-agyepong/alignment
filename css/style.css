@@ -183,6 +183,11 @@ button:hover {
 }
 
 /* ************** footer *************** */
+footer{
+background-color: black;
+height: 100%;
+padding: 20px;
+}
 footer li {
     display: inline;
 }
